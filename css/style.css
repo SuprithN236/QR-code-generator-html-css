@@ -1,7 +1,52 @@
-.attribution {
-  font-size: 11px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.hero-page {
+  background-color: #d9f0ff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-container {
+  width: 250px;
+  background-color: hsl(218, 44%, 22%);
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+.image-container {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.qr-container img {
+  width: 100%;
+  height: 60%;
+}
+
+.text-container {
+  padding: 0 15px;
+}
+
+.text-container .heading {
+  margin-top: 20px;
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.text-container .description {
+  margin-top: 20px;
+  font-size: 1.5rem;
 }
